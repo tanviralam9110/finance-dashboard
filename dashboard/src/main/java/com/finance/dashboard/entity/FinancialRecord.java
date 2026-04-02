@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 @Entity
 @Data
-public class FinancialRecordEntity {
+public class FinancialRecord {
 
     @Id
     @GeneratedValue
