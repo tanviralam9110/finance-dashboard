@@ -9,11 +9,11 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/records")
-public class FinancialContoller {
+public class FinancialController {
 
     private FinancialService financialService;
 
-    public FinancialContoller(FinancialService financialService){
+    public FinancialController(FinancialService financialService){
         this.financialService = financialService;
     }
 
