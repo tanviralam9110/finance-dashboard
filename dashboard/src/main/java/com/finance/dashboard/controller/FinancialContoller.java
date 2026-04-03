@@ -14,7 +14,13 @@ public class FinancialContoller {
     private FinancialService financialService;
 
     public FinancialContoller(FinancialService financialService){
-        this.financialService= financialService;
+        this.financialService = financialService;
+    }
+
+
+    @GetMapping("/")
+    public String home() {
+        return "Finance Dashboard Backend Running ";
     }
 
     @PostMapping
